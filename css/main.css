@@ -1,0 +1,70 @@
+body {
+    margin: 0, auto;
+    font-family: 'Arial', 'Helvetica', 'Helvetica Neue', sans-serif;
+}
+
+fieldset {
+	background-color: #DDD;
+}
+
+legend {
+    font-size: 2rem;
+    border: 1px #DDD solid;
+    padding: 14px;
+	background-color: #fff;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 2px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=Submit] {
+    background-color: #6495ED;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 25rem){
+	.form-box {
+		padding-bottom: 10px;
+	}
+	
+	input[type=Submit] {
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width: 35rem){
+	.form-box {
+		padding-bottom: 7px;
+		
+	}
+	
+}
+
+@media screen and (max-width: 50rem){
+	.form-box {
+		width: 100%;
+		float: left;
+		padding-bottom: 10px;
+	}
+}
