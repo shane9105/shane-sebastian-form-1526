@@ -7,7 +7,7 @@ const form = document.querySelector("form");
 const fullname = document.getElementById("fname");
 const email = document.getElementById("email");
 const message = document.getElementById("message");
-const pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/; // email reg-exp
+const pattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
 
 
 const collectedData = {
